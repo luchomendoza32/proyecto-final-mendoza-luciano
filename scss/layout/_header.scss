@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+
+    background-color: #323031;
+        h1 {
+            a{           
+            color: white;
+            font-size: 4rem;
+            margin: 1rem;
+            font-weight: bold; 
+            text-shadow: $shadow; 
+            text-decoration: none;
+        }
+                     
+        }
+        .icono {            
+            justify-self: start;
+            height: 95%;
+            margin: 1rem;                                  
+
+            img {
+                height: 100%;
+            }
+        }
+
+        .header-nav {
+            margin-left: auto;
+            .nav {
+                display: inline-block;
+                a {
+                    margin: 1rem;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 3rem;
+                    font-weight: bold;
+                     
+
+                        &:hover {                       
+                        text-shadow: $shadow;
+                        
+                    }
+                    
+                }
+            }
+        }
+}
+
+.nav-burger {
+    display: none;
+}

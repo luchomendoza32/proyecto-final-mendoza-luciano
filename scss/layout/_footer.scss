@@ -1,0 +1,15 @@
+.footer {
+    margin: auto;
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        
+        li{
+            margin: 1rem 5rem;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import "utilidades/variables";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/main";
+@import "views/mediaqueries";
+@import "layout/redes";
+@import "utilidades/globals";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+  }
+
+
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+body {
+    background-color: #c1bdb3;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+   
+

@@ -1,0 +1,891 @@
+.footer {
+  margin: auto;
+}
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.footer ul li {
+  margin: 1rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: #323031;
+}
+.header h1 a {
+  color: white;
+  font-size: 4rem;
+  margin: 1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 20px #2d6969;
+  text-decoration: none;
+}
+.header .icono {
+  justify-self: start;
+  height: 95%;
+  margin: 1rem;
+}
+.header .icono img {
+  height: 100%;
+}
+.header .header-nav {
+  margin-left: auto;
+}
+.header .header-nav .nav {
+  display: inline-block;
+}
+.header .header-nav .nav a {
+  margin: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.header .header-nav .nav a:hover {
+  text-shadow: 1px 1px 20px #2d6969;
+}
+
+.nav-burger {
+  display: none;
+}
+
+.footer {
+  margin: auto;
+}
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.footer ul li {
+  margin: 1rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: #323031;
+}
+.header h1 a {
+  color: white;
+  font-size: 4rem;
+  margin: 1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 20px #2d6969;
+  text-decoration: none;
+}
+.header .icono {
+  justify-self: start;
+  height: 95%;
+  margin: 1rem;
+}
+.header .icono img {
+  height: 100%;
+}
+.header .header-nav {
+  margin-left: auto;
+}
+.header .header-nav .nav {
+  display: inline-block;
+}
+.header .header-nav .nav a {
+  margin: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.header .header-nav .nav a:hover {
+  text-shadow: 1px 1px 20px #2d6969;
+}
+
+.nav-burger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+  .nav-burger {
+    display: flex;
+    color: white;
+    background-color: #323031;
+    height: 5rem;
+  }
+  .nav-burger a {
+    font-size: 2rem;
+  }
+  .nav-burger div div {
+    font-size: 1.5rem;
+  }
+  .nav-burger div div h5 {
+    font-size: 3rem;
+  }
+  .nav-burger div .nav-bg {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    backdrop-filter: blur(100px);
+  }
+  .section-1 h2 {
+    font-size: 25px !important;
+    text-decoration: underline;
+    max-width: 100vw !important;
+    padding: 2.5rem !important;
+  }
+  .section-1 p {
+    max-width: 85vw !important;
+    padding: 2.5rem;
+    font-weight: 500;
+  }
+  .section-2 {
+    border-radius: 25px;
+    border: 2px rgb(0, 0, 0) solid;
+    margin-top: 10px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 h2 {
+    font-size: 25px !important;
+    text-decoration: underline;
+    padding: 1rem !important;
+    padding-top: 1.5rem !important;
+  }
+  .section-2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+  }
+  .section-2 ul li {
+    max-width: 85vw !important;
+    padding: 0.5rem !important;
+    font-weight: 600;
+  }
+  .imagen-banner {
+    display: flex;
+    max-width: 95vw;
+    justify-content: center;
+  }
+  .imagen-banner img {
+    width: 100%;
+    border: white solid 1px;
+  }
+  .footer {
+    max-width: 80vw !important;
+  }
+  .footer .footer-list li {
+    margin: 1rem !important;
+  }
+  .formulario {
+    height: 65vh !important;
+    width: 85vw !important;
+  }
+  .cards {
+    grid-template-columns: 1fr !important;
+  }
+  .imagen-banner {
+    width: 80% !important;
+  }
+  .main-servicio {
+    gap: 2rem;
+  }
+  .main-servicio h1 {
+    text-align: center;
+    margin: 2rem !important;
+  }
+  .main-servicio .formulario-reparacion {
+    max-width: 100vw !important;
+    width: 90% !important;
+    max-height: 80vh !important;
+    height: 100% !important;
+  }
+  .main-servicio .formulario-reparacion .formulario {
+    width: 100% !important;
+    height: 500px !important;
+  }
+  .main-servicio .formulario-reparacion .button {
+    margin: 1rem !important;
+    width: 400px !important;
+  }
+  .main-tienda {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100vw !important;
+  }
+  .main-tienda h1, .main-tienda h2 {
+    text-align: center;
+  }
+  .main-tienda .shop {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main-tienda .shop .cards-shop {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main-empresa {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .main-empresa .main-content {
+    max-height: 250px !important;
+    height: 100%;
+    text-align: center;
+  }
+  .main-empresa .main-content h1 {
+    font-size: 3rem;
+    max-width: 90%;
+  }
+  .main-empresa .info-empresa {
+    max-width: 360px;
+    width: 100%;
+  }
+  .main-empresa .info-empresa h2 {
+    font-size: 2.5rem;
+  }
+  .main-empresa .info-empresa p {
+    font-size: 2rem;
+  }
+  .main-empresa .iconos-empresa {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    max-width: 360px;
+    width: 90%;
+    height: 50%;
+  }
+  .main-empresa .iconos-empresa div {
+    width: 90%;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 340px;
+  }
+  .main-empresa .iconos-empresa div img {
+    height: 50%;
+    align-self: center;
+  }
+}
+.div-iconos {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.div-iconos img {
+  width: 50px;
+  margin: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid #25c5c5;
+}
+.div-iconos img:hover {
+  box-shadow: 1px 1px 10px;
+}
+
+.main-tienda, .main-empresa .iconos-empresa, .main-empresa, .main-servicio, .main-celulares, .main-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.parrafo {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.main-index {
+  gap: 1rem;
+  width: 100%;
+}
+.main-index .section-1, .main-index .section-2 {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem 0rem;
+  align-items: center;
+  text-align: start;
+}
+.main-index .section-1 h1, .main-index .section-2 h1 {
+  text-align: center;
+}
+.main-index .section-1 p, .main-index .section-2 p {
+  text-align: center;
+  width: 100rem;
+  padding: 1rem;
+}
+.main-index .section-1 h2, .main-index .section-2 h2 {
+  margin: 1.5rem;
+}
+.main-index .section-1 ul, .main-index .section-2 ul {
+  list-style-type: none;
+  text-align: start;
+}
+.main-index .section-1 ul li, .main-index .section-2 ul li {
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-left: 40px;
+}
+.main-index .lista {
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: #817e76;
+}
+.main-index .imagen-banner {
+  display: flex;
+  width: 40%;
+  margin: 1.5rem 0px;
+}
+.main-index .imagen-banner img {
+  width: 100%;
+  box-shadow: 1px 1px 20px #2d6969;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.linea-divisora {
+  border-bottom: solid black 1px;
+  width: 70%;
+  margin: 2rem 0rem;
+}
+
+.main-celulares .blog {
+  width: 100%;
+}
+.main-celulares .blog .blog-contenido {
+  width: 85%;
+  margin: 20px auto;
+}
+.main-celulares .blog .blog-contenido .titulo {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #d1cdc2;
+  width: 100%;
+}
+.main-celulares .blog .blog-contenido .titulo h1 {
+  font-size: 3.5rem;
+  color: #000000;
+  margin-top: 20px;
+}
+.main-celulares .blog .blog-contenido .titulo p {
+  font-size: 20px;
+  padding: 1rem;
+}
+.main-celulares .blog .blog-contenido .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin: 25px auto;
+}
+.main-celulares .blog .blog-contenido .cards .card {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 20px;
+  border: solid rgb(0, 0, 0) 1px;
+  box-shadow: 0px 1px 20px;
+}
+.main-celulares .blog .blog-contenido .cards .card .noticia {
+  padding: 15px 20px;
+}
+.main-celulares .blog .blog-contenido .cards .card .noticia h3 {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.main-celulares .blog .blog-contenido .cards .card .noticia p {
+  font-size: 16px;
+  margin: 10px 0px;
+  color: #6a6a6a;
+}
+.main-celulares .blog .blog-contenido .cards .card .imagen img {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+}
+.main-celulares .blog .blog-contenido .cards .card .blog-vista a {
+  text-decoration: none;
+  color: #323031;
+  display: inline-block;
+  background-color: #25c5c5;
+  padding: 8px 10px;
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.main-celulares .blog .blog-contenido .cards .card .blog-vista a:hover {
+  box-shadow: 1px 1px 10px #4e7272;
+}
+.main-celulares .blog .blog-contenido .cards .card .fecha p {
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  background-color: #25c5c5;
+  padding: 8px;
+  border-top-left-radius: 20px;
+}
+
+.main-servicio h1 {
+  margin: 3rem;
+  text-decoration: underline;
+}
+.main-servicio .formulario-reparacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 60vh;
+  border-radius: 20px;
+}
+.main-servicio .formulario-reparacion .formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 80rem;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px;
+  border-radius: 20px;
+}
+.main-servicio .formulario-reparacion .formulario .grupo-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.main-servicio .formulario-reparacion .formulario .grupo-form label {
+  align-self: start;
+  font-size: 2rem;
+  max-width: 80%;
+  width: 100%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.main-servicio .formulario-reparacion .formulario .grupo-form input {
+  padding: 0.5rem;
+  width: 100%;
+  align-self: center;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  max-width: 80%;
+}
+.main-servicio .formulario-reparacion .formulario button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 15vw;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 1px 1px 10px;
+  margin: 1rem;
+}
+
+.main-empresa {
+  max-width: 100vw;
+}
+.main-empresa .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 90vw;
+  height: 400px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px black;
+  margin: 3rem;
+}
+.main-empresa .main-content img {
+  width: 100%;
+}
+.main-empresa .main-content h1 {
+  z-index: 1;
+  position: absolute;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 1px 1px 12px black;
+}
+.main-empresa .info-empresa {
+  width: 60%;
+  text-align: center;
+}
+.main-empresa .info-empresa h2 {
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 30px;
+}
+.main-empresa .info-empresa p {
+  font-size: 2.5rem;
+  margin: 2rem;
+  padding: 1rem;
+  font-weight: 450;
+}
+.main-empresa .iconos-empresa {
+  flex-direction: row !important;
+  width: 80%;
+  height: 400px;
+}
+.main-empresa .iconos-empresa div {
+  height: 80%;
+  width: 100%;
+  background-color: #817e76;
+  margin: 2rem;
+  border-radius: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.445);
+  text-align: center;
+  box-shadow: 1px 1px 15px black;
+}
+.main-empresa .iconos-empresa div img {
+  height: 50%;
+  margin: 2.5rem;
+}
+.main-empresa .iconos-empresa div p {
+  font-weight: 600;
+}
+
+.main-tienda {
+  background-color: #d6d1c3;
+}
+.main-tienda h1 {
+  margin: 3.5rem;
+}
+.main-tienda .shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 1rem;
+}
+.main-tienda .shop .cards-shop {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+.main-tienda .shop .cards-shop .shop-card {
+  width: 250px;
+  height: 350px;
+  border: 2px solid black;
+  margin: 1.5rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease;
+}
+.main-tienda .shop .cards-shop .shop-card:hover {
+  box-shadow: 1px 1px 10px black;
+  background-color: #e5eef0;
+}
+.main-tienda .shop .cards-shop .shop-card h3 {
+  font-size: 2rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+.main-tienda .shop .cards-shop .shop-card div {
+  height: 20rem;
+  width: 18rem;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.main-tienda .shop .cards-shop .shop-card div img {
+  height: 100%;
+  background-color: none;
+  margin: 0.5rem;
+}
+.main-tienda .shop .cards-shop .shop-card h4 {
+  margin: 0.5rem;
+}
+.main-tienda .shop .cards-shop .shop-card p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.main-tienda .shop .cards-shop .shop-card button {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  width: 40%;
+  height: 3rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+.main-tienda .shop .cards-shop .shop-card button:hover {
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.233);
+}
+.main-tienda .shop .cards-shop .shop-card button:active {
+  background-color: #94e2de;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+  .nav-burger {
+    display: flex;
+    color: white;
+    background-color: #323031;
+    height: 5rem;
+  }
+  .nav-burger a {
+    font-size: 2rem;
+  }
+  .nav-burger div div {
+    font-size: 1.5rem;
+  }
+  .nav-burger div div h5 {
+    font-size: 3rem;
+  }
+  .nav-burger div .nav-bg {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    backdrop-filter: blur(100px);
+  }
+  .section-1 h2 {
+    font-size: 25px !important;
+    text-decoration: underline;
+    max-width: 100vw !important;
+    padding: 2.5rem !important;
+  }
+  .section-1 p {
+    max-width: 85vw !important;
+    padding: 2.5rem;
+    font-weight: 500;
+  }
+  .section-2 {
+    border-radius: 25px;
+    border: 2px rgb(0, 0, 0) solid;
+    margin-top: 10px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 h2 {
+    font-size: 25px !important;
+    text-decoration: underline;
+    padding: 1rem !important;
+    padding-top: 1.5rem !important;
+  }
+  .section-2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+  }
+  .section-2 ul li {
+    max-width: 85vw !important;
+    padding: 0.5rem !important;
+    font-weight: 600;
+  }
+  .imagen-banner {
+    display: flex;
+    max-width: 95vw;
+    justify-content: center;
+  }
+  .imagen-banner img {
+    width: 100%;
+    border: white solid 1px;
+  }
+  .footer {
+    max-width: 80vw !important;
+  }
+  .footer .footer-list li {
+    margin: 1rem !important;
+  }
+  .formulario {
+    height: 65vh !important;
+    width: 85vw !important;
+  }
+  .cards {
+    grid-template-columns: 1fr !important;
+  }
+  .imagen-banner {
+    width: 80% !important;
+  }
+  .main-servicio {
+    gap: 2rem;
+  }
+  .main-servicio h1 {
+    text-align: center;
+    margin: 2rem !important;
+  }
+  .main-servicio .formulario-reparacion {
+    max-width: 100vw !important;
+    width: 90% !important;
+    max-height: 80vh !important;
+    height: 100% !important;
+  }
+  .main-servicio .formulario-reparacion .formulario {
+    width: 100% !important;
+    height: 500px !important;
+  }
+  .main-servicio .formulario-reparacion .button {
+    margin: 1rem !important;
+    width: 400px !important;
+  }
+  .main-tienda {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100vw !important;
+  }
+  .main-tienda h1, .main-tienda h2 {
+    text-align: center;
+  }
+  .main-tienda .shop {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main-tienda .shop .cards-shop {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main-empresa {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .main-empresa .main-content {
+    max-height: 250px !important;
+    height: 100%;
+    text-align: center;
+  }
+  .main-empresa .main-content h1 {
+    font-size: 3rem;
+    max-width: 90%;
+  }
+  .main-empresa .info-empresa {
+    max-width: 360px;
+    width: 100%;
+  }
+  .main-empresa .info-empresa h2 {
+    font-size: 2.5rem;
+  }
+  .main-empresa .info-empresa p {
+    font-size: 2rem;
+  }
+  .main-empresa .iconos-empresa {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    max-width: 360px;
+    width: 90%;
+    height: 50%;
+  }
+  .main-empresa .iconos-empresa div {
+    width: 90%;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 340px;
+  }
+  .main-empresa .iconos-empresa div img {
+    height: 50%;
+    align-self: center;
+  }
+}
+.div-iconos {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.div-iconos img {
+  width: 50px;
+  margin: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid #25c5c5;
+}
+.div-iconos img:hover {
+  box-shadow: 1px 1px 10px;
+}
+
+.main-index, .main-celulares, .main-servicio, .main-empresa, .main-empresa .iconos-empresa, .main-tienda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.parrafo {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #c1bdb3;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */

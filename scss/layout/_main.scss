@@ -1,0 +1,434 @@
+@import "../utilidades/variables";
+@import "footer";
+@import "header";
+@import "../views/mediaqueries";
+@import "redes";
+@import "../utilidades/globals";
+
+
+.main-index {
+    @extend %display-flex;
+    gap: 1rem;
+    width: 100%;
+    
+                       
+        .section-1, .section-2 {
+            margin: 2rem;            
+            display: flex;
+            flex-direction: column;            
+            margin-top: 3rem 0rem;
+            align-items: center;
+            text-align: start;  
+                    
+                h1 {                                                          
+                    text-align: center;
+                                                                                                                   
+                }
+                p {
+                    text-align: center;                    
+                    width: 100rem; 
+                    padding: 1rem;                                                 
+                }
+
+                h2 {
+                    margin: 1.5rem;
+                }
+
+                ul{
+                   list-style-type: none;
+                   text-align: start;
+                                        
+                    li {                        
+                        font-size: 2rem;
+                        padding: 0.5rem;
+                        margin: 0.5rem;
+                        margin-left: 40px;
+                        
+                    }
+                }        
+        } 
+
+        .lista {
+            @include borde-redondeado(20px, 2px solid white);
+            background-color: $color-4;            
+        }
+
+        
+        
+        .imagen-banner {
+            display: flex;
+            width: 40%;
+            margin: 1.5rem 0px;
+                img {
+                    width: 100%;                    
+                    box-shadow: $shadow;  
+                    @include borde-redondeado(20px, 1px solid white)                  
+                }
+            
+        }
+    }
+
+.linea-divisora{
+        border-bottom: solid black 1px;
+        width: 70%;
+        margin: 2rem 0rem;   
+                     
+    }
+
+.main-celulares {
+    @extend %display-flex;
+    .blog {
+        width: 100%;
+        
+            .blog-contenido {
+                width: 85%;
+                margin: 20px auto;
+                
+                
+                .titulo {
+                    width: 60%;
+                    text-align: center;
+                    margin: auto;
+                    @include borde-redondeado(20px, 1px solid black);
+                    background-color: #d1cdc2;
+                    width: 100%;
+                    
+                        h1 {
+                            font-size: 3.5rem;
+                            color: #000000;
+                            margin-top: 20px;
+                            
+                        }
+                        p{
+                            font-size: 20px;
+                            padding: 1rem;
+                        }
+                    }
+    
+                
+                
+                .cards {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 50px;
+                    margin: 25px auto;
+                    
+                    
+                    .card {
+                        width: 100%;
+                        background-color: rgb(255, 255, 255);
+                        position: relative;
+                        border-radius: 20px; 
+                        border: solid rgb(0, 0, 0) 1px; 
+                        box-shadow: 0px 1px 20px;
+                                                                                   
+                            .noticia{
+                                padding: 15px 20px;
+                                    h3 {
+                                        font-size: 24px;
+                                        color: #4a4a4a;
+                                    }
+                                    p {
+                                        font-size: 16px;
+                                        margin: 10px 0px;
+                                        color: #6a6a6a ;
+                                    }                           
+                            }
+    
+                            .imagen {
+                            
+                                img {
+                                width: 100%;
+                                height: auto;
+                                border-top-right-radius: 20px;
+                                border-top-left-radius: 20px; 
+                                overflow: hidden;
+                                }
+                            }
+                            .blog-vista {
+                                            
+                                
+                               
+                                a{
+                                    text-decoration: none;
+                                    color: #323031;
+                                    display: inline-block;
+                                    background-color: #25c5c5;
+                                    padding: 8px 10px;
+                                    margin-left: 20px;
+                                    color: #fff;
+                                    margin-bottom: 20px;
+                                    font-size: 15px;
+                                    &:hover {
+                                        box-shadow: 1px 1px 10px #4e7272;
+                                    }
+                                    
+                                }                           
+                            }
+    
+                            .fecha {
+                                p {
+                                    font-weight: 600;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    display: inline-block;
+                                    background-color: #25c5c5;
+                                    padding: 8px;
+                                    border-top-left-radius: 20px;
+                                }
+                            }
+                    }
+                }       
+            }               
+    }
+}
+
+.main-servicio {
+    @extend %display-flex;
+
+    h1 {
+        margin: 3rem;
+        text-decoration: underline;
+    }
+
+    .formulario-reparacion {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50vw;
+        height: 60vh;
+        border-radius: 20px;
+        
+
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            width: 80rem;
+            border: 1px solid black;
+            box-shadow: 1px 1px 10px;
+            border-radius: 20px;
+
+            .grupo-form {
+                display: flex;
+                flex-direction: column;
+                margin: 1rem;
+
+                label {
+                    align-self: start;
+                    font-size: 2rem;
+                    max-width: 80%;
+                    width: 100%;
+                    margin-left: 10%;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                }
+
+                input {
+                    padding: 0.5rem;
+                    width: 100%;
+                    align-self: center;
+                    border-radius: 10px;
+                    font-size: 1.5rem;
+                    max-width: 80%;
+                }
+            }
+            
+            button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-self: center;
+                width: 15vw;
+                height: 3rem;
+                border-radius: 10px;
+                font-size: 1.5rem;
+                font-weight: 600;
+                box-shadow: 1px 1px 10px;
+                margin: 1rem;
+            }
+        }
+
+
+
+    }
+
+}
+   
+.main-empresa {
+    @extend %display-flex;
+    max-width: 100vw;
+    
+    .main-content { 
+          
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 90vw;
+        height: 400px;
+        @include borde-redondeado(20px, 1px solid black);
+        box-shadow: 1px 1px 10px black;
+        margin: 3rem;        
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            z-index: 1;
+            position: absolute;
+            font-size: 5rem;
+            
+            color: white;
+            text-shadow: 1px 1px 12px black;
+            
+        }                  
+    }
+
+    .info-empresa {
+        width: 60%;
+        text-align: center;       
+        
+            h2 {
+                font-size: 3.5rem;
+                text-shadow: 1px 1px 30px;
+            }
+            p {
+                font-size: $h2-size;
+                margin: 2rem;
+                padding: 1rem;
+                font-weight: 450;
+            }
+        
+
+    }
+
+    .iconos-empresa {
+        @extend %display-flex;
+        flex-direction: row !important;
+        width: 80%;
+        height: 400px;
+            div {
+                height: 80%;
+                width: 100%;
+                background-color: $color-4;
+                margin: 2rem;
+                @include borde-redondeado(60px, 2px solid rgba(255, 255, 255, 0.445));
+                text-align: center;
+                box-shadow: 1px 1px 15px black;
+                    img {
+                        height: 50%;
+                        margin: 2.5rem;
+                        
+                    }
+                    p {
+                        font-weight: 600;
+                    }
+                    
+            }
+    }
+}
+
+.main-tienda {
+    
+    @extend %display-flex;
+    background-color: #d6d1c3;
+
+    h1 {
+        margin: 3.5rem;
+    }
+    
+
+    .shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 1rem;
+    
+            .cards-shop {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                max-width: 90vw;
+                align-items: center;
+                justify-content: center;
+                
+                
+                .shop-card{
+                    width: 250px;
+                    height: 350px;
+                    border: 2px solid black;
+                    margin: 1.5rem;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(255, 255, 255);
+                    transition: background-color 0.3s ease;
+                    
+                    &:hover{
+                        box-shadow: 1px 1px 10px black;
+                        background-color: #e5eef0;
+
+                    } 
+                   
+                    h3 {
+                        font-size: 2rem;
+                        margin: 0.5rem;
+                        text-align: center;
+                    }
+    
+                    div {
+                        height: 20rem;
+                        width: 18rem;
+                        overflow: hidden;
+                        background-color: white;
+                        display: flex;
+                        justify-content: center;
+                        
+                        img {
+                            
+                            height: 100%;
+                            background-color: none;
+                            margin: 0.5rem;
+                        }
+                    }
+
+                    h4 {
+                        margin: 0.5rem;
+                    }
+
+                    p {                       
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+                    button {
+                        margin-bottom: 1rem;
+                        font-size: 1.5rem;
+                        border-radius: 5px;
+                        width: 40%;
+                        height: 3rem;
+                        text-align: center;
+                        transition: background-color 0.3s ease;
+
+                        &:hover{
+                            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.233);
+                        }
+                        &:active{
+                            background-color: #94e2de;
+                        }
+
+                    }
+                }
+            }
+        
+    }
+}
+
+    
