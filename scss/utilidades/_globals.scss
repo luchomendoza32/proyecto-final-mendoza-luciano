@@ -1,0 +1,41 @@
+$h1-size: 3.5rem;
+$h1-weight: bold;
+$h2-size: 2.5rem;
+$p-size: 2rem;
+$h1-margin: 1rem;
+
+@mixin h1-titulos($h1-size, $h1-weight, $h1-margin){
+    font-size: $h1-size;
+    font-weight: $h1-weight;
+    margin: $h1-margin;
+}
+
+@mixin borde-redondeado($radio, $color){
+    border-radius: $radio;
+    border: $color;
+}
+
+
+%display-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    @include h1-titulos(3.5rem, bold, 1rem)
+}
+
+.h2 {
+    font-size: $h2-size;
+    margin: 1rem;
+}
+
+.parrafo {
+    font-size: $p-size;
+    margin: 1rem;
+}
+
+
+
